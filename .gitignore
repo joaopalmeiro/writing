@@ -1,0 +1,7 @@
+# Source: https://github.com/sveltejs/template/blob/master/.gitignore
+/node_modules/
+/public/build/
+
+.DS_Store
+
+# Custom
