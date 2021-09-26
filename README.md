@@ -76,3 +76,7 @@ My writings published in different sites and aggregated here.
 - [Prettier and ESLint Setup for Svelte.js](https://www.rockyourcode.com/prettier-and-es-lint-setup-for-svelte-js/) blog post.
 - [prettier-plugin-svelte](https://github.com/sveltejs/prettier-plugin-svelte):
   - [`.prettierrc` file](https://github.com/sveltejs/prettier-plugin-svelte/blob/master/.prettierrc).
+
+### Misc
+
+- [List of ISO 639-1 codes](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes).
