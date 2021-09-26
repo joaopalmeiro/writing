@@ -7,10 +7,10 @@ export default {
   mount: {
     // Key (local directory name): Value (build path)
     // public: "/",
-    public: { url: "/", static: true },
-    src: "/dist",
+    public: { url: '/', static: true },
+    src: '/dist',
   },
-  plugins: ["@snowpack/plugin-svelte"],
+  plugins: ['@snowpack/plugin-svelte'],
   routes: [],
   optimize: {},
   packageOptions: {},

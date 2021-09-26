@@ -61,6 +61,8 @@ My writings published in different sites and aggregated here.
 - `{@debug variableName}` for debugging.
 - [Svelte Preprocess](https://github.com/sveltejs/svelte-preprocess) package.
 - Sapper is an application framework, similar to Next.js (vs. React).
+- [Svelte for VS Code](https://github.com/sveltejs/language-tools/tree/master/packages/svelte-vscode):
+  - Run _Svelte: Restart Language Server_ if Prettier configuration changes.
 
 ### [Snowpack](https://www.snowpack.dev/)
 
@@ -68,3 +70,8 @@ My writings published in different sites and aggregated here.
 - [Create Snowpack App (CSA)](https://github.com/snowpackjs/snowpack/tree/main/create-snowpack-app/cli) CLI:
   - `npx create-snowpack-app svelte-snowpack --template @snowpack/app-template-minimal`.
 - [Hot Module Replacement (HMR)](https://www.snowpack.dev/concepts/hot-module-replacement): to push file updates to the browser without triggering a full page refresh.
+
+### Prettier
+
+- [Prettier and ESLint Setup for Svelte.js](https://www.rockyourcode.com/prettier-and-es-lint-setup-for-svelte-js/) blog post.
+- [prettier-plugin-svelte](https://github.com/sveltejs/prettier-plugin-svelte).
