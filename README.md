@@ -74,4 +74,5 @@ My writings published in different sites and aggregated here.
 ### Prettier
 
 - [Prettier and ESLint Setup for Svelte.js](https://www.rockyourcode.com/prettier-and-es-lint-setup-for-svelte-js/) blog post.
-- [prettier-plugin-svelte](https://github.com/sveltejs/prettier-plugin-svelte).
+- [prettier-plugin-svelte](https://github.com/sveltejs/prettier-plugin-svelte):
+  - [`.prettierrc` file](https://github.com/sveltejs/prettier-plugin-svelte/blob/master/.prettierrc).
