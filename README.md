@@ -90,6 +90,7 @@ My writings published in different sites and aggregated here.
     - `<main role="main">…</main>`.
     - `<nav role="navigation">…</nav>`.
     - `<footer role="contentinfo">…</footer>`.
+- [VoiceOver Keyboard Shortcuts on a Mac](https://dequeuniversity.com/screenreaders/voiceover-keyboard-shortcuts).
 
 ### Misc
 

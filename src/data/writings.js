@@ -3,7 +3,7 @@ export default [
     url: 'https://www.wilder.pt/historias/o-tamanho-do-salmao-importa/',
     title: 'O tamanho (do salmão) importa',
     year: 2021,
-    language: 'pt',
+    language: 'pt-PT',
     publication: 'Wilder',
   },
   {
@@ -24,7 +24,7 @@ export default [
     url: 'https://www.facebook.com/arredondarte/posts/383849332346398',
     title: 'Entrei em casa',
     year: 2019,
-    language: 'pt',
+    language: 'pt-PT',
     publication: 'ArredondArte - Associação Cultural de Redondo',
   },
 ];
