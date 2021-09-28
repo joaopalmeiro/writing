@@ -77,6 +77,20 @@ My writings published in different sites and aggregated here.
 - [prettier-plugin-svelte](https://github.com/sveltejs/prettier-plugin-svelte):
   - [`.prettierrc` file](https://github.com/sveltejs/prettier-plugin-svelte/blob/master/.prettierrc).
 
+### Accessibility
+
+- Blogs/Websites:
+  - [a11y with Lindsey](https://www.a11ywithlindsey.com/).
+  - [The A11Y Project](https://www.a11yproject.com/).
+  - [Periodic Table of ARIA 1.0 Roles](https://dylanb.github.io/periodic-aria-roles.html).
+  - [Web Accessibility Tutorials](https://www.w3.org/WAI/tutorials/).
+- [Page Regions](https://www.w3.org/WAI/tutorials/page-structure/regions/):
+  - To maximize compatibility with browsers and assistive technologies that support WAI-ARIA but do not yet support HTML5, it is advisable to use both the HTML5 elements and the corresponding WAI-ARIA roles:
+    - `<header role="banner">…</header>`.
+    - `<main role="main">…</main>`.
+    - `<nav role="navigation">…</nav>`.
+    - `<footer role="contentinfo">…</footer>`.
+
 ### Misc
 
 - [List of ISO 639-1 codes](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes).

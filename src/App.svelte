@@ -1,40 +1,21 @@
 <script>
-  const writings = [
-    {
-      url: 'https://www.wilder.pt/historias/o-tamanho-do-salmao-importa/',
-      title: 'O tamanho (do salmão) importa',
-      year: 2021,
-      language: 'pt',
-      publication: 'Wilder',
-    },
-    {
-      url: 'https://medium.com/feedzaitech/plotting-the-first-point-of-the-feedzai-charting-library-50f21b4a5e01',
-      title: 'Plotting the first point of the Feedzai Charting Library.',
-      year: 2020,
-      language: 'en',
-      publication: 'Feedzai Techblog',
-    },
-    {
-      url: 'https://datacated.com/datacated-challenge/a-tale-of-two-feature-engineers-machine-learning-vs-deep-learning/',
-      title: 'A Tale of Two Feature Engineers: Machine Learning vs Deep Learning',
-      year: 2020,
-      language: 'en',
-      publication: 'DATAcated',
-    },
-    {
-      url: 'https://www.facebook.com/arredondarte/posts/383849332346398',
-      title: 'Entrei em casa',
-      year: 2019,
-      language: 'pt',
-      publication: 'ArredondArte - Associação Cultural de Redondo',
-    },
-  ];
+  import { PERSONAL_SITE_URL } from './data/misc.js';
+  import writings from './data/writings.js';
 </script>
 
-<div>
+<!-- More info: https://www.w3.org/WAI/tutorials/page-structure/regions/ -->
+<main role="main">
+  <h1>Scatter plot</h1>
+  <!-- More info: https://web.dev/external-anchors-use-rel-noopener/ -->
+  <p>
+    Scattered writings by <a href={PERSONAL_SITE_URL} target="_blank" rel="noreferrer"
+      >João Palmeiro</a
+    >
+  </p>
+
   <ul>
     {#each writings as writing}
       <li>{writing.title}</li>
     {/each}
   </ul>
-</div>
+</main>
