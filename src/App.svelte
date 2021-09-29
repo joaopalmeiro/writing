@@ -17,6 +17,13 @@
 </main>
 
 <style>
+  :global(:root) {
+    --base-black: 0, 0%, 11%; /* #1b1b1b */
+
+    --black: hsla(var(--base-black), 1);
+    --black-transparent: hsla(var(--base-black), 0.5);
+  }
+
   /* Source: 
    * - https://kittygiraudel.com/snippets/sr-only-class/ 
    * - https://github.com/sandrina-p/portfolio_v3/blob/master/src/theme/Theme.svelte#L120
