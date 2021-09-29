@@ -92,6 +92,17 @@ My writings published in different sites and aggregated here.
     - `<footer role="contentinfo">…</footer>`.
 - [VoiceOver Keyboard Shortcuts on a Mac](https://dequeuniversity.com/screenreaders/voiceover-keyboard-shortcuts).
 
+### CSS
+
+> Source: [CSS for JavaScript Developers](https://courses.joshwcomeau.com/css-for-js) course by Josh Comeau.
+
+- The `em` unit is a _relative_ unit. It is equal to the font size of the current element.
+- Using `em` means that a component will change depending on the font size of the container it is placed within.
+- The `rem` unit is similar to the `em` unit. However, it is relative to the root element (`<html>` tag). The author suggests using this unit for font sizes/typography.
+- If necessary, change the baseline font size using `em` or `rem`, not `px` (e.g., `html { font-size: 1.2em; }`).
+- As for box model properties (padding, border, and margin), the author typically uses `px`.
+
 ### Misc
 
 - [List of ISO 639-1 codes](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes).
+- [atipo](https://www.atipofoundry.com/) fonts.
