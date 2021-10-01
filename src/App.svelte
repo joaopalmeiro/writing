@@ -4,7 +4,7 @@
 </script>
 
 <!-- More info: https://www.w3.org/WAI/tutorials/page-structure/regions/ -->
-<main role="main">
+<main role="main" class="wrapper">
   <h1>Scatter plot</h1>
   <!-- More info: https://web.dev/external-anchors-use-rel-noopener/ -->
   <p>
@@ -40,5 +40,10 @@
     position: absolute !important;
     width: 1px !important;
     white-space: nowrap !important;
+  }
+
+  .wrapper {
+    max-width: 780px;
+    margin: 0 auto;
   }
 </style>

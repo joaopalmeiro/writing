@@ -18,7 +18,7 @@
   }
 </script>
 
-<ul>
+<ul class="card-list">
   {#each writings as writing}
     <li class="card-item">
       <div class="blob-wrapper">
@@ -38,10 +38,33 @@
 </ul>
 
 <style>
+  .card-list {
+    /* Reset */
+    list-style: none;
+    padding: 0;
+  }
+
   .card-item {
+    /* Layout */
     display: flex;
     flex-direction: row;
     align-items: center;
+    /* Aesthetics */
+    border: 2px solid var(--black);
+    /* More info: https://developer.mozilla.org/en-US/docs/Web/CSS/box-shadow#values */
+    box-shadow: 0 4px 0 0 var(--black);
+    border-radius: 8px;
+    transition: all 200ms ease;
+  }
+
+  .card-item:not(:last-child) {
+    margin: 0 0 25px;
+  }
+
+  .card-item:hover {
+    /* Based on: https://www.designsystemsforfigma.com/ by Josh Cusick */
+    box-shadow: none;
+    transform: translate(0px, 4px);
   }
 
   .blob-wrapper {
