@@ -7,6 +7,13 @@ export default [
     publication: 'Wilder',
   },
   {
+    url: 'https://matplotlib.org/matplotblog/posts/stellar-chart-alternative-radar-chart/',
+    title: 'Stellar Chart, a Type of Chart to Be on Your Radar',
+    year: 2021,
+    language: 'en',
+    publication: 'Matplotblog',
+  },
+  {
     url: 'https://medium.com/feedzaitech/plotting-the-first-point-of-the-feedzai-charting-library-50f21b4a5e01',
     title: 'Plotting the first point of the Feedzai Charting Library.',
     year: 2020,
