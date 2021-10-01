@@ -43,6 +43,7 @@
   }
 
   .wrapper {
+    /* Based on: https://www.sandrina-p.net/writing/ by Sandrina Pereira */
     max-width: 780px;
     margin: 0 auto;
   }
