@@ -5,6 +5,7 @@ export default [
     year: 2021,
     language: 'pt-PT',
     publication: 'Wilder',
+    publicationLanguage: 'en',
   },
   {
     url: 'https://matplotlib.org/matplotblog/posts/stellar-chart-alternative-radar-chart/',
@@ -12,6 +13,7 @@ export default [
     year: 2021,
     language: 'en',
     publication: 'Matplotblog',
+    publicationLanguage: 'en',
   },
   {
     url: 'https://medium.com/feedzaitech/plotting-the-first-point-of-the-feedzai-charting-library-50f21b4a5e01',
@@ -19,6 +21,7 @@ export default [
     year: 2020,
     language: 'en',
     publication: 'Feedzai Techblog',
+    publicationLanguage: 'en',
   },
   {
     url: 'https://datacated.com/datacated-challenge/a-tale-of-two-feature-engineers-machine-learning-vs-deep-learning/',
@@ -26,6 +29,7 @@ export default [
     year: 2020,
     language: 'en',
     publication: 'DATAcated',
+    publicationLanguage: 'en',
   },
   {
     url: 'https://www.facebook.com/arredondarte/posts/383849332346398',
@@ -33,5 +37,6 @@ export default [
     year: 2019,
     language: 'pt-PT',
     publication: 'ArredondArte - Associação Cultural de Redondo',
+    publicationLanguage: 'pt-PT',
   },
 ];

@@ -8,7 +8,8 @@
   <h1>Scatter plot</h1>
   <!-- More info: https://web.dev/external-anchors-use-rel-noopener/ -->
   <p>
-    Scattered words by <a href={PERSONAL_SITE_URL} target="_blank" rel="noreferrer">João Palmeiro</a
+    Scattered words by <a href={PERSONAL_SITE_URL} target="_blank" rel="noreferrer" lang="pt-PT"
+      >João Palmeiro</a
     >
   </p>
 
@@ -43,8 +44,11 @@
   }
 
   .wrapper {
-    /* Based on: https://www.sandrina-p.net/writing/ by Sandrina Pereira */
-    max-width: 780px;
+    /* Based on: 
+     * - https://www.sandrina-p.net/writing/ by Sandrina Pereira 
+     * - https://overreacted.io/ by Dan Abramov
+     */
+    max-width: 42rem;
     margin: 0 auto;
   }
 </style>
