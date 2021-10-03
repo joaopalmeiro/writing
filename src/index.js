@@ -1,5 +1,8 @@
 import App from './App.svelte';
 
+// More info:
+// - https://github.com/maxboeck/mxb/blob/master/src/layouts/base.njk by Max Böck
+// - https://en.wikipedia.org/wiki/Source_code
 let app = new App({
   target: document.body,
 });
