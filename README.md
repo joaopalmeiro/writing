@@ -102,6 +102,10 @@ My writings published in different sites and aggregated here.
 - If necessary, change the baseline font size using `em` or `rem`, not `px` (e.g., `html { font-size: 1.2em; }`).
 - As for box model properties (padding, border, and margin), the author typically uses `px`.
 
+### [Windi CSS](https://windicss.org/)
+
+- Utility-first CSS framework. Alternative to Tailwind CSS.
+
 ### Misc
 
 - [List of ISO 639-1 codes](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes).
