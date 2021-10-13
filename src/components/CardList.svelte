@@ -1,6 +1,7 @@
 <script>
   import writings from '../data/writings';
   import { getBlobBorderRadius } from '../utils';
+  import Icon from './Icon.svelte';
 </script>
 
 <ul class="card-list">
@@ -15,6 +16,9 @@
           class="blob"
           style="border-radius: {getBlobBorderRadius()}; background-color: var(--black);"
         />
+        <div class="icon">
+          <Icon name={writing.icon} />
+        </div>
       </div>
       <div>
         <!-- More info: https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/lang -->
@@ -77,5 +81,13 @@
     width: 100%;
     height: 100%;
     position: absolute;
+  }
+
+  .icon {
+    /* Source: https://stackoverflow.com/a/36366223 */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
   }
 </style>

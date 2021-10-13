@@ -11,7 +11,7 @@ My writings published in different sites and aggregated here.
 
 ### Svelte
 
-> Source: [Svelte course](https://frontendmasters.com/courses/svelte/) by Rich Harris and Frontend Masters.
+> Source: [Svelte](https://frontendmasters.com/courses/svelte/) course by Rich Harris and Frontend Masters.
 
 - Svelte is a component framework.
 - Svelte is a compiler that takes declarative code and turns it into imperative JS.
@@ -111,3 +111,8 @@ My writings published in different sites and aggregated here.
 - [List of ISO 639-1 codes](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes).
 - [atipo](https://www.atipofoundry.com/) fonts.
 - [Random blob generator](https://codepen.io/LekovicMilos/pen/omVzYv) pen by Milos Lekovic.
+
+### References
+
+- [currentColor](https://css-tricks.com/currentcolor/) blog post by Chris Coyier.
+- [Icon](https://svelte.recipes/components/icon) recipe by Amelia Wattenberger.
