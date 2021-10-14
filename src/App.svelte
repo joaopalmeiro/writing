@@ -23,6 +23,8 @@
 
     --black: hsla(var(--base-black), 1);
     --black-transparent: hsla(var(--base-black), 0.5);
+
+    --box-shadow-offset: 4px;
   }
 
   /* Source: 

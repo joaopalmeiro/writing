@@ -1,12 +1,19 @@
 <script>
   import writings from '../data/writings';
-  import { getBlobBorderRadius } from '../utils';
+  import { getBlobBorderRadius, getRandomItem } from '../utils';
   import Icon from './Icon.svelte';
 </script>
 
 <ul class="card-list">
   {#each writings as writing}
-    <li class="card-item">
+    <li
+      class="card-item {getRandomItem([
+        'bottom-border',
+        'top-border',
+        'left-border',
+        'right-border',
+      ])}"
+    >
       <div class="blob-wrapper">
         <div
           class="blob"
@@ -54,8 +61,6 @@
     align-items: center;
     /* Aesthetics */
     border: 2px solid var(--black);
-    /* More info: https://developer.mozilla.org/en-US/docs/Web/CSS/box-shadow#values */
-    box-shadow: 0 4px 0 0 var(--black);
     border-radius: 8px;
     transition: all 200ms ease;
   }
@@ -64,10 +69,47 @@
     margin: 0 0 25px;
   }
 
-  .card-item:hover {
+  .bottom-border {
+    /* More info: 
+     * - https://developer.mozilla.org/en-US/docs/Web/CSS/box-shadow#values
+     * - https://css-tricks.com/almanac/properties/b/box-shadow/
+     * - box-shadow: [horizontal offset] [vertical offset] [blur radius] [spread radius] [color];
+     */
+    box-shadow: 0 var(--box-shadow-offset) 0 0 var(--black);
+  }
+
+  .bottom-border:hover {
     /* Based on: https://www.designsystemsforfigma.com/ by Josh Cusick */
     box-shadow: none;
-    transform: translate(0px, 4px);
+    transform: translate(0px, var(--box-shadow-offset));
+  }
+
+  .top-border {
+    /* More info: https://stackoverflow.com/a/49469345 */
+    box-shadow: 0 calc(var(--box-shadow-offset) * -1) 0 0 var(--black);
+  }
+
+  .top-border:hover {
+    box-shadow: none;
+    transform: translate(0px, calc(var(--box-shadow-offset) * -1));
+  }
+
+  .left-border {
+    box-shadow: calc(var(--box-shadow-offset) * -1) 0 0 0 var(--black);
+  }
+
+  .left-border:hover {
+    box-shadow: none;
+    transform: translate(calc(var(--box-shadow-offset) * -1), 0px);
+  }
+
+  .right-border {
+    box-shadow: var(--box-shadow-offset) 0 0 0 var(--black);
+  }
+
+  .right-border:hover {
+    box-shadow: none;
+    transform: translate(var(--box-shadow-offset), 0px);
   }
 
   .blob-wrapper {

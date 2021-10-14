@@ -22,3 +22,8 @@ export function getBlobBorderRadius() {
 
   return `${percentage1}% ${percentage11}% ${percentage21}% ${percentage2}% / ${percentage3}% ${percentage4}% ${percentage41}% ${percentage31}%`;
 }
+
+export function getRandomItem(fromArray) {
+  // Source: https://css-tricks.com/snippets/javascript/select-random-item-array/
+  return fromArray[Math.floor(Math.random() * fromArray.length)];
+}
