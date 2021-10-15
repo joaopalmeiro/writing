@@ -58,6 +58,7 @@
   }
 
   :global(h1, h2) {
+    /* More info: https://developer.mozilla.org/en-US/docs/Web/CSS/font-weight */
     font-weight: 700;
   }
 
