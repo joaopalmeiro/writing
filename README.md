@@ -64,6 +64,10 @@ My writings published in different sites and aggregated here.
 - [Svelte for VS Code](https://github.com/sveltejs/language-tools/tree/master/packages/svelte-vscode):
   - Run _Svelte: Restart Language Server_ if Prettier configuration changes.
 
+> Tooling
+
+- [Svelma](https://c0bra.github.io/svelma/): Bulma components for Svelte.
+
 ### [Snowpack](https://www.snowpack.dev/)
 
 - [Template](https://github.com/snowpackjs/snowpack/tree/main/create-snowpack-app/app-template-svelte).
@@ -116,3 +120,4 @@ My writings published in different sites and aggregated here.
 
 - [currentColor](https://css-tricks.com/currentcolor/) blog post by Chris Coyier.
 - [Icon](https://svelte.recipes/components/icon) recipe by Amelia Wattenberger.
+- [Deploy Svelte with Vercel](https://vercel.com/guides/deploying-svelte-with-vercel).
