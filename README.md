@@ -115,9 +115,12 @@ My writings published in different sites and aggregated here.
 - [List of ISO 639-1 codes](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes).
 - [atipo](https://www.atipofoundry.com/) fonts.
 - [Random blob generator](https://codepen.io/LekovicMilos/pen/omVzYv) pen by Milos Lekovic.
+- [Fontsource](https://fontsource.org/) package:
+  - Example: [Alice](https://fonts.google.com/specimen/Alice) font (`npm install @fontsource/alice`).
 
 ### References
 
 - [currentColor](https://css-tricks.com/currentcolor/) blog post by Chris Coyier.
 - [Icon](https://svelte.recipes/components/icon) recipe by Amelia Wattenberger.
 - [Deploy Svelte with Vercel](https://vercel.com/guides/deploying-svelte-with-vercel).
+- [17 Open Source Fonts You’ll Actually Love](https://www.webdesignerdepot.com/2020/08/17-open-source-fonts-youll-actually-love/) blog post by Jonathan Kelley.

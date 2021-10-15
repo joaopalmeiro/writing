@@ -3,6 +3,23 @@
   import { PERSONAL_SITE_URL } from './data/misc';
 </script>
 
+<svelte:head>
+  <!-- More info: 
+    - https://leveluptutorials.com/
+    - https://svelte.dev/tutorial/svelte-head
+    - https://svelte.dev/docs#svelte_head
+    - https://www.fontpair.co/all
+    - https://fonts.google.com/specimen/Domine
+    - https://fonts.google.com/specimen/Inter
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Domine:wght@500;700&family=Inter&display=swap"
+    rel="stylesheet"
+  />
+</svelte:head>
+
 <!-- More info: https://www.w3.org/WAI/tutorials/page-structure/regions/ -->
 <main role="main" class="wrapper">
   <h1>Scatter plot</h1>
@@ -25,6 +42,27 @@
     --black-transparent: hsla(var(--base-black), 0.5);
 
     --box-shadow-offset: 4px;
+
+    --font-family-base: 'Inter', sans-serif;
+    --font-family-display: 'Domine', serif;
+  }
+
+  :global(body) {
+    font-family: var(--font-family-base);
+  }
+
+  :global(h1, h2, h3) {
+    /* More info: https://mxb.dev/blog/ */
+    font-family: var(--font-family-display);
+    text-rendering: optimizeLegibility;
+  }
+
+  :global(h1, h2) {
+    font-weight: 700;
+  }
+
+  :global(h3) {
+    font-weight: 500;
   }
 
   /* Source: 
