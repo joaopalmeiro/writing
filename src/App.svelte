@@ -36,10 +36,14 @@
 
 <style>
   :global(:root) {
+    /* https://convertacolor.com/ */
     --base-black: 0, 0%, 11%; /* #1b1b1b */
-
     --black: hsla(var(--base-black), 1);
     --black-transparent: hsla(var(--base-black), 0.5);
+
+    /* Source: https://www.bruegel.org/ */
+    --white-yellow: hsla(60, 22.2%, 96.5%, 1); /* #f8f8f4 */
+    --white: hsla(0, 0%, 100%, 1); /* #ffffff */
 
     --box-shadow-offset: 4px;
 
@@ -49,6 +53,11 @@
 
   :global(body) {
     font-family: var(--font-family-base);
+    /* background-color: red; */
+    /* background-color: var(--white-yellow); */
+    /* Source: https://www.conic.style/ */
+    background: conic-gradient(at 0% 0%, snow, var(--white));
+    color: var(--black);
   }
 
   :global(h1, h2, h3) {

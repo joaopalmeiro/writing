@@ -63,6 +63,7 @@
     border: 2px solid var(--black);
     border-radius: 8px;
     transition: all 200ms ease;
+    background-color: var(--white);
   }
 
   .card-item:not(:last-child) {
