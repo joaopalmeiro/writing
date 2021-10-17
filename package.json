@@ -16,6 +16,7 @@
   },
   "dependencies": {
     "ress": "^4.0.0",
-    "svelte": "^3.43.0"
+    "svelte": "^3.43.0",
+    "typed.js": "^2.0.12"
   }
 }
