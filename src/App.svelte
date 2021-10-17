@@ -51,7 +51,9 @@
       >
     </p>
   </div>
-  <span id="typed" />
+  <!-- <span id="typed" /> -->
+  <!-- More info: https://stackoverflow.com/a/2076111 -->
+  <p id="typed" style="display: inline;" />
 
   <h2 class="sr-only">Writings</h2>
   <CardList />
