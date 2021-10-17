@@ -15,6 +15,7 @@
     "snowpack": "^3.3.7"
   },
   "dependencies": {
+    "ress": "^4.0.0",
     "svelte": "^3.43.0"
   }
 }

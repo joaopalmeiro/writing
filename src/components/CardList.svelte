@@ -48,11 +48,14 @@
 </ul>
 
 <style>
-  .card-list {
-    /* Reset */
+  /* 
+   * This reset is not necessary because of `display: flex` and ress
+   * More info: https://stackoverflow.com/a/34316093
+   */
+  /* .card-list {
     list-style: none;
     padding: 0;
-  }
+  } */
 
   .card-item {
     /* Layout */
@@ -132,5 +135,6 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    color: var(--white);
   }
 </style>

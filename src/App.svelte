@@ -1,4 +1,10 @@
 <script>
+  // More info:
+  // - https://www.resset.dev/docs
+  // - https://github.com/filipelinhares/ress/blob/master/ress.css (it hides the default focus indicators)
+  // - https://github.com/necolas/normalize.css/blob/master/normalize.css
+  // - https://github.com/snowpackjs/snowpack/tree/main/plugins/plugin-svelte
+  import 'ress';
   import CardList from './components/CardList.svelte';
   import { PERSONAL_SITE_URL } from './data/misc';
 </script>
