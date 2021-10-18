@@ -21,9 +21,8 @@
 </svelte:head>
 
 <!-- More info: https://www.w3.org/WAI/tutorials/page-structure/regions/ -->
+<Header />
 <main role="main" class="wrapper">
-  <Header />
-
   <h2 class="sr-only">Writings</h2>
   <CardList />
 </main>

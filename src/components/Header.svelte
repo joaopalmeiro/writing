@@ -13,18 +13,37 @@
   // $: console.log($reducedMotion);
 </script>
 
-<h1>Scatter plot</h1>
-{#if $reducedMotion}
-  <p>
-    {@html text}
-  </p>
-{:else}
-  <div id="typed-strings" use:typing>
+<header role="banner">
+  <h1>Scatter plot</h1>
+  {#if $reducedMotion}
     <p>
       {@html text}
     </p>
-  </div>
-  <!-- <span id="typed" /> -->
-  <!-- More info: https://stackoverflow.com/a/2076111 -->
-  <p id="typed" style="display: inline;" />
-{/if}
+  {:else}
+    <div id="typed-strings" use:typing>
+      <p>
+        {@html text}
+      </p>
+    </div>
+    <!-- <span id="typed" /> -->
+    <!-- More info: https://stackoverflow.com/a/2076111 -->
+    <p id="typed" style="display: inline;" />
+  {/if}
+</header>
+
+<style>
+  header {
+    /* More info: text-center (https://windicss.org/utilities/typography.html#text-alignment) */
+    text-align: center;
+  }
+
+  h1 {
+    /* More info: 
+     * - text-8xl (https://windicss.org/utilities/typography.html#font-size) 
+     * - tracking-wide (https://windicss.org/utilities/typography.html#letter-spacing)
+     */
+    font-size: 6rem;
+    line-height: 1;
+    letter-spacing: 0.025em;
+  }
+</style>
