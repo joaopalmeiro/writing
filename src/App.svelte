@@ -5,22 +5,8 @@
   // - https://github.com/necolas/normalize.css/blob/master/normalize.css
   // - https://github.com/snowpackjs/snowpack/tree/main/plugins/plugin-svelte
   import 'ress';
-  import { onMount } from 'svelte';
-  import Typed from 'typed.js';
   import CardList from './components/CardList.svelte';
-  import { PERSONAL_SITE_URL } from './data/misc';
-
-  onMount(() => {
-    // More info:
-    // - https://github.com/mattboldt/typed.js#strings-from-static-html-seo-friendly
-    // - https://github.com/mattboldt/typed.js#setup
-    // - https://github.com/Los-Crackitos/svelte-typed-js/blob/master/src/TypedJs.svelte
-    // - https://github.com/mattboldt/typed.js/blob/master/src/initializer.js#L15
-    const typed = new Typed('#typed', {
-      stringsElement: '#typed-strings',
-      typeSpeed: 40,
-    });
-  });
+  import Header from './components/Header.svelte';
 </script>
 
 <svelte:head>
@@ -42,18 +28,7 @@
 
 <!-- More info: https://www.w3.org/WAI/tutorials/page-structure/regions/ -->
 <main role="main" class="wrapper">
-  <h1>Scatter plot</h1>
-  <!-- More info: https://web.dev/external-anchors-use-rel-noopener/ -->
-  <div id="typed-strings">
-    <p>
-      Scattered words by <a href={PERSONAL_SITE_URL} target="_blank" rel="noreferrer" lang="pt-PT"
-        >João Palmeiro</a
-      >
-    </p>
-  </div>
-  <!-- <span id="typed" /> -->
-  <!-- More info: https://stackoverflow.com/a/2076111 -->
-  <p id="typed" style="display: inline;" />
+  <Header />
 
   <h2 class="sr-only">Writings</h2>
   <CardList />

@@ -126,3 +126,4 @@ My writings published in different sites and aggregated here.
 - [Deploy Svelte with Vercel](https://vercel.com/guides/deploying-svelte-with-vercel).
 - [17 Open Source Fonts You’ll Actually Love](https://www.webdesignerdepot.com/2020/08/17-open-source-fonts-youll-actually-love/) blog post by Jonathan Kelley.
 - [@snowpack/plugin-svelte](https://github.com/snowpackjs/snowpack/tree/main/plugins/plugin-svelte) plugin.
+- [Simulate different prefers-color-scheme and prefers-reduced-motion preferences](https://developer.chrome.com/blog/new-in-devtools-79/#userpreferences) (Chrome DevTools).
