@@ -14,7 +14,7 @@
         'right-border',
       ])}"
     >
-      <div class="blob-wrapper">
+      <div class="blob-wrapper" aria-hidden="true">
         <div
           class="blob"
           style="border-radius: {getBlobBorderRadius()}; background-color: var(--black-transparent);"

@@ -81,7 +81,7 @@
      * - https://developer.mozilla.org/en-US/docs/Web/CSS/outline
      */
     outline: var(--black) solid 3px;
-    outline-offset: 3px;
+    /* outline-offset: 3px; */
   }
 
   /* Source: 
