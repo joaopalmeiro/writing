@@ -64,9 +64,12 @@ My writings published in different sites and aggregated here.
 - [Svelte for VS Code](https://github.com/sveltejs/language-tools/tree/master/packages/svelte-vscode):
   - Run _Svelte: Restart Language Server_ if Prettier configuration changes.
 
-> Tooling
+> UI Kits
 
+- [Attractions](https://illright.github.io/attractions/).
 - [Svelma](https://c0bra.github.io/svelma/): Bulma components for Svelte.
+- [Kahi UI](https://kahi-ui.nbn.dev/).
+- [PaperCSS](https://www.getpapercss.com/) and [Spaper](https://oli8.github.io/spaper/).
 
 ### [Snowpack](https://www.snowpack.dev/)
 
