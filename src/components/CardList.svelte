@@ -48,6 +48,12 @@
 </ul>
 
 <style>
+  h3 {
+    /* More info: text-3xl (https://windicss.org/utilities/typography.html#font-size) */
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+  }
+
   /* 
    * This reset is not necessary because of `display: flex` and ress
    * More info: https://stackoverflow.com/a/34316093

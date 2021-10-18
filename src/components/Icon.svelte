@@ -2,6 +2,7 @@
   // More info
   // - Recipe: https://svelte.recipes/components/icon
   // - Icons (15×15): https://icons.modulz.app/
+  // - https://windicss.org/utilities/svg.html#fill-color
   import pathsByName from '../data/icon-paths';
 
   export let name;
