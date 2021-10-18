@@ -21,6 +21,7 @@
 </svelte:head>
 
 <!-- More info: https://www.w3.org/WAI/tutorials/page-structure/regions/ -->
+<!-- Alternative: <Header /> inside <main> and without `role="banner"` (e.g., https://mxb.dev/blog/) -->
 <Header />
 <main role="main" class="wrapper">
   <h2 class="sr-only">Writings</h2>
