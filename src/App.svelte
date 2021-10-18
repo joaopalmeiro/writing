@@ -1,10 +1,4 @@
 <script>
-  // More info:
-  // - https://www.resset.dev/docs
-  // - https://github.com/filipelinhares/ress/blob/master/ress.css (it hides the default focus indicators)
-  // - https://github.com/necolas/normalize.css/blob/master/normalize.css
-  // - https://github.com/snowpackjs/snowpack/tree/main/plugins/plugin-svelte
-  import 'ress';
   import CardList from './components/CardList.svelte';
   import Header from './components/Header.svelte';
 </script>
@@ -73,6 +67,21 @@
 
   :global(h3) {
     font-weight: 500;
+  }
+
+  /* :global(a:focus:not(:focus-visible)) {
+    outline: none;
+  } */
+
+  /* Show the focus indicator when interacting with keyboard  */
+  :global(a:focus-visible) {
+    /* More info: 
+     * - https://css-tricks.com/having-a-little-fun-with-custom-focus-styles/#bonus-customize-the-default-outline 
+     * - https://developer.mozilla.org/en-US/docs/Web/CSS/outline-offset
+     * - https://developer.mozilla.org/en-US/docs/Web/CSS/outline
+     */
+    outline: var(--black) solid 3px;
+    outline-offset: 3px;
   }
 
   /* Source: 
