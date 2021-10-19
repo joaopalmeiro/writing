@@ -53,6 +53,7 @@
     /* More info: text-3xl (https://windicss.org/utilities/typography.html#font-size) */
     font-size: 1.875rem;
     line-height: 2.25rem;
+    margin-bottom: 1rem;
   }
 
   /* 
@@ -83,14 +84,17 @@
     /* padding: 1rem; */
     padding: 2rem 1rem 1rem;
     /* Aesthetics */
+    /* More info: border-2 (https://windicss.org/utilities/borders.html#border-width) */
     border: 2px solid var(--black);
-    border-radius: 8px;
+    /* More info: rounded-lg (https://windicss.org/utilities/borders.html#border-radius) */
+    /* border-radius: 8px; */
+    border-radius: 0.5rem;
     transition: all 200ms ease;
     background-color: var(--white);
   }
 
   .card-item:not(:last-child) {
-    margin: 0 0 25px;
+    margin-bottom: 2rem;
   }
 
   .bottom-border {

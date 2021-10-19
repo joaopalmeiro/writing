@@ -39,7 +39,9 @@
     --white-yellow: hsla(60, 22.2%, 96.5%, 1); /* #f8f8f4 */
     --white: hsla(0, 0%, 100%, 1); /* #ffffff */
 
-    --box-shadow-offset: 4px;
+    /* More info: https://windicss.org/utilities/borders.html#border-radius */
+    /* --box-shadow-offset: 4px; */
+    --box-shadow-offset: 0.25rem;
 
     --font-family-base: 'Inter', sans-serif;
     --font-family-display: 'Domine', serif;
