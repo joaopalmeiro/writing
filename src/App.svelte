@@ -84,6 +84,14 @@
     /* outline-offset: 3px; */
   }
 
+  :global(a) {
+    /* Single color */
+    /* More info: https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_text/Styling_links */
+    color: var(--black);
+    /* More info: https://developer.mozilla.org/en-US/docs/Web/CSS/text-decoration-color */
+    text-decoration-color: var(--black-transparent);
+  }
+
   /* Source: 
    * - https://kittygiraudel.com/snippets/sr-only-class/ 
    * - https://github.com/sandrina-p/portfolio_v3/blob/master/src/theme/Theme.svelte#L120
