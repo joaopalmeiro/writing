@@ -34,13 +34,14 @@
         </h3>
         <!-- More info: 
         - https://developer.mozilla.org/en-US/docs/Web/HTML/Element/time
+        - https://css-tricks.com/time-element/#year-only
         - https://www.a11ywithlindsey.com/blog -->
         <p>
           <!-- More info: https://sarah.dev/writing/ -->
           <span class="sr-only">Published on</span>
           <span lang={writing.publicationLanguage}>{writing.publication}</span>
           <span aria-hidden="true">•</span>
-          <time>{writing.year}</time>
+          <time datetime={writing.year}>{writing.year}</time>
         </p>
       </div>
     </li>

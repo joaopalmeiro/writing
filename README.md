@@ -131,3 +131,4 @@ My writings published in different sites and aggregated here.
 - [17 Open Source Fonts You’ll Actually Love](https://www.webdesignerdepot.com/2020/08/17-open-source-fonts-youll-actually-love/) blog post by Jonathan Kelley.
 - [@snowpack/plugin-svelte](https://github.com/snowpackjs/snowpack/tree/main/plugins/plugin-svelte) plugin.
 - [Simulate different prefers-color-scheme and prefers-reduced-motion preferences](https://developer.chrome.com/blog/new-in-devtools-79/#userpreferences) (Chrome DevTools).
+- [Emojis as Favicons](https://css-tricks.com/emojis-as-favicons/) blog post by Chris Coyier.
