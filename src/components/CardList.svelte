@@ -63,11 +63,24 @@
     padding: 0;
   } */
 
+  .card-list {
+    /* More info: https://windicss.org/utilities/spacing.html#padding-bottom */
+    /* padding-bottom: 4rem; */
+    padding-bottom: 5rem;
+  }
+
   .card-item {
     /* Layout */
     display: flex;
     flex-direction: row;
     align-items: center;
+    /* Spacing */
+    /* More info:
+     * - https://www.sandrina-p.net/writing/
+     * - https://windicss.org/utilities/spacing.html#margin-bottom 
+     */
+    /* padding: 1rem; */
+    padding: 2rem 1rem 1rem;
     /* Aesthetics */
     border: 2px solid var(--black);
     border-radius: 8px;
