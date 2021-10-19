@@ -92,6 +92,13 @@
     text-decoration-color: var(--black-transparent);
   }
 
+  :global(p) {
+    /* More info: text-xl (https://windicss.org/utilities/typography.html#font-size) */
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    /* color: red; */
+  }
+
   /* Source: 
    * - https://kittygiraudel.com/snippets/sr-only-class/ 
    * - https://github.com/sandrina-p/portfolio_v3/blob/master/src/theme/Theme.svelte#L120
