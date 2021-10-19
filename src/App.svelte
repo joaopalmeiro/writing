@@ -114,8 +114,12 @@
     /* Based on: 
      * - https://www.sandrina-p.net/writing/ by Sandrina Pereira 
      * - https://overreacted.io/ by Dan Abramov
+     * - https://windicss.org/utilities/sizing.html#max-width
+     * - https://www.swyx.io/css-100-bytes/ (here or in `html`/`body`)
      */
-    max-width: 42rem;
+    /* max-width: 42rem; */
+    /* max-width: 65ch; */
+    max-width: 70ch;
     margin: 0 auto;
   }
 </style>
