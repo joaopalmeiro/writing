@@ -88,6 +88,7 @@
     /* Single color */
     /* More info: https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_text/Styling_links */
     color: var(--black);
+    /* color: red; */
     /* More info: https://developer.mozilla.org/en-US/docs/Web/CSS/text-decoration-color */
     text-decoration-color: var(--black-transparent);
   }

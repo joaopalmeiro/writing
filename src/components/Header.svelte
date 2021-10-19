@@ -14,7 +14,7 @@
 </script>
 
 <header role="banner">
-  <h1>Scatter plot</h1>
+  <h1>Scatter Plot</h1>
   {#if $reducedMotion}
     <p>
       {@html text}
@@ -35,6 +35,12 @@
   header {
     /* More info: text-center (https://windicss.org/utilities/typography.html#text-alignment) */
     text-align: center;
+    /* More info:
+     * - https://mxb.dev/blog/
+     * - py-20 (https://windicss.org/utilities/spacing.html#padding-y) 
+     */
+    padding-top: 5rem;
+    padding-bottom: 5rem;
   }
 
   h1 {
@@ -45,5 +51,7 @@
     font-size: 6rem;
     line-height: 1;
     letter-spacing: 0.025em;
+    /* More info: mb-4 (https://windicss.org/utilities/spacing.html#margin-bottom) */
+    margin-bottom: 1rem;
   }
 </style>
