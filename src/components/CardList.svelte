@@ -73,9 +73,11 @@
 
   .card-item {
     /* Layout */
+    /* More info: https://css-tricks.com/snippets/css/a-guide-to-flexbox/ */
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: flex-start;
     /* Spacing */
     /* More info:
      * - https://www.sandrina-p.net/writing/
@@ -83,6 +85,7 @@
      */
     /* padding: 1rem; */
     padding: 2rem 1rem 1rem;
+    gap: 1rem;
     /* Aesthetics */
     /* More info: border-2 (https://windicss.org/utilities/borders.html#border-width) */
     border: 2px solid var(--black);
@@ -141,10 +144,17 @@
   }
 
   .blob-wrapper {
-    width: 3rem;
-    height: 3rem;
+    /* width: 3rem; */
+    /* height: 3rem; */
+    width: 4rem;
+    height: 4rem;
     /* More info: https://css-tricks.com/how-to-stack-elements-in-css/ */
     position: relative;
+    /* More info: 
+     * - https://css-tricks.com/snippets/css/a-guide-to-flexbox/#flex-shrink
+     * - https://stackoverflow.com/a/30684798 
+     */
+    flex-shrink: 0;
   }
 
   .blob {
@@ -160,5 +170,7 @@
     left: 50%;
     transform: translate(-50%, -50%);
     color: var(--white);
+    /* More info: text-xl (https://windicss.org/utilities/typography.html#font-size) */
+    font-size: 1.25rem;
   }
 </style>

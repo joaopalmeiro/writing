@@ -132,3 +132,4 @@ My writings published in different sites and aggregated here.
 - [@snowpack/plugin-svelte](https://github.com/snowpackjs/snowpack/tree/main/plugins/plugin-svelte) plugin.
 - [Simulate different prefers-color-scheme and prefers-reduced-motion preferences](https://developer.chrome.com/blog/new-in-devtools-79/#userpreferences) (Chrome DevTools).
 - [Emojis as Favicons](https://css-tricks.com/emojis-as-favicons/) blog post by Chris Coyier.
+- [Color-meaning words in comment should not be rendered with the color.](https://github.com/KamiKillertO/vscode-colorize/issues/37) issue.
