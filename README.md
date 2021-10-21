@@ -1,6 +1,6 @@
 # writing
 
-My writings published in different sites and aggregated here.
+My [writings](https://joaopalmeirowritings.vercel.app/) published in different sites and aggregated here.
 
 ## Quickstart
 
@@ -71,6 +71,10 @@ My writings published in different sites and aggregated here.
 - [Kahi UI](https://kahi-ui.nbn.dev/).
 - [PaperCSS](https://www.getpapercss.com/) and [Spaper](https://oli8.github.io/spaper/).
 - [Shoelace](https://shoelace.style/) (Web Components).
+
+> Deployment
+
+- With this configuration, in Vercel, change the _OUTPUT DIRECTORY_ to `build` (assuming the _FRAMEWORK PRESET_ is Svelte).
 
 ### [Snowpack](https://www.snowpack.dev/)
 
