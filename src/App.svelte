@@ -57,6 +57,9 @@
     /* Source: https://www.conic.style/ */
     background: conic-gradient(at 0% 0%, snow, var(--white));
     color: var(--black);
+    /* https://windicss.org/utilities/layout/spacing.html#padding-x */
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
   }
 
   :global(h1, h2, h3) {
