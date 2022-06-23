@@ -1,5 +1,14 @@
 export default [
   {
+    url: 'https://medium.com/feedzaitech/styling-altair-charts-with-the-feedzai-altair-theme-f3dcd27b3b68',
+    title: 'Styling Altair Charts with the feedzai-altair-theme',
+    year: 2022,
+    language: 'en',
+    publication: 'Feedzai Techblog',
+    publicationLanguage: 'en',
+    icon: 'colorWheel',
+  },
+  {
     url: 'https://www.wilder.pt/historias/o-tamanho-do-salmao-importa/',
     title: 'O tamanho (do salmão) importa',
     year: 2021,
@@ -10,6 +19,7 @@ export default [
   },
   {
     url: 'https://matplotlib.org/matplotblog/posts/stellar-chart-alternative-radar-chart/',
+    // url: 'https://blog.scientific-python.org/posts/matplotlib/stellar-chart-alternative-radar-chart/',
     title: 'Stellar Chart, a Type of Chart to Be on Your Radar',
     year: 2021,
     language: 'en',
@@ -27,7 +37,7 @@ export default [
     icon: 'pie',
   },
   {
-    url: 'https://datacated.com/datacated-challenge/a-tale-of-two-feature-engineers-machine-learning-vs-deep-learning/',
+    url: 'https://www.datacated.com/blog/a-tale-of-two-feature-engineers-machine-learning-vs-deep-learning',
     title: 'A Tale of Two Feature Engineers: Machine Learning vs Deep Learning',
     year: 2020,
     language: 'en',
